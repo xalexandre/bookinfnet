@@ -1,0 +1,99 @@
+.book-details-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  .book-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-button, .search-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #60b383;
+    margin: 0;
+  }
+  
+  .book-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-info h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .book-info p {
+    margin: 3px 0;
+    font-size: 14px;
+  }
+  
+  .book-progress .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .book-progress label {
+    display: block;
+    margin-bottom: 5px;
+    color: #60b383;
+    font-size: 14px;
+  }
+  
+  .book-progress input,
+  .book-progress textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #60b383;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .book-progress textarea {
+    border-radius: 15px;
+    resize: none;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .finished-button,
+  .done-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #60b383;
+    color: white;
+    width: 48%;
+  }
+  
+  .book-quotes {
+    margin-top: 20px;
+  }
+  
+  .book-quotes h3 {
+    color: #60b383;
+    margin-bottom: 10px;
+  }
+  
+  .book-quotes p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  

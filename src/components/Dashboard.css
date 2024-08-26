@@ -1,0 +1,81 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-button, .search-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #60b383;
+    margin: 0;
+  }
+  
+  h3 {
+    color: #60b383;
+    margin-bottom: 20px;
+  }
+  
+  .book-progress-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .book-progress-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .book-progress-item img {
+    width: 60px;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .book-details {
+    flex-grow: 1;
+  }
+  
+  .book-details h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .book-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #60b383;
+  }
+  

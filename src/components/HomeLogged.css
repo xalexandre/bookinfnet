@@ -1,0 +1,73 @@
+.home-logged-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-logged-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-button, .search-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #60b383;
+    margin: 0;
+  }
+  
+  section h3 {
+    color: #60b383;
+    margin-bottom: 10px;
+  }
+  
+  .books-row {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .book-item {
+    margin-right: 15px;
+    text-align: center;
+  }
+  
+  .book-item img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .book-item p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .book-item span {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .category-item {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
